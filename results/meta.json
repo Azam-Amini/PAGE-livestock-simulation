@@ -1,0 +1,2229 @@
+{
+ "scenarios": {
+  "S1": {
+   "name": "GS",
+   "N": 800,
+   "Ns": 20,
+   "Nd": 320,
+   "gens": 25,
+   "mu": 0.0002,
+   "p_edit": 0.0,
+   "q_edit": 0.9,
+   "K": 6,
+   "lam": 0.0,
+   "s_p": 0.0,
+   "r_p": 0.65,
+   "r_f": 0.35,
+   "w_p": 1.0,
+   "w_f": 0.0,
+   "edit_start": 1,
+   "clone_donors": 0
+  },
+  "S2": {
+   "name": "PAGE-mod",
+   "N": 800,
+   "Ns": 20,
+   "Nd": 320,
+   "gens": 25,
+   "mu": 0.0002,
+   "p_edit": 0.25,
+   "q_edit": 0.9,
+   "K": 3,
+   "lam": 0.0,
+   "s_p": 0.0,
+   "r_p": 0.65,
+   "r_f": 0.35,
+   "w_p": 1.0,
+   "w_f": 0.0,
+   "edit_start": 1,
+   "clone_donors": 0
+  },
+  "S3": {
+   "name": "PAGE-agg",
+   "N": 800,
+   "Ns": 20,
+   "Nd": 320,
+   "gens": 25,
+   "mu": 0.0002,
+   "p_edit": 0.9,
+   "q_edit": 0.9,
+   "K": 6,
+   "lam": 0.0,
+   "s_p": 0.0,
+   "r_p": 0.65,
+   "r_f": 0.35,
+   "w_p": 1.0,
+   "w_f": 0.0,
+   "edit_start": 1,
+   "clone_donors": 0
+  },
+  "S4": {
+   "name": "PAGE+OT",
+   "N": 800,
+   "Ns": 20,
+   "Nd": 320,
+   "gens": 25,
+   "mu": 0.0002,
+   "p_edit": 0.9,
+   "q_edit": 0.9,
+   "K": 6,
+   "lam": 0.15,
+   "s_p": 0.0,
+   "r_p": 0.65,
+   "r_f": 0.35,
+   "w_p": 1.0,
+   "w_f": 0.0,
+   "edit_start": 1,
+   "clone_donors": 0
+  },
+  "S5": {
+   "name": "PAGE+PL",
+   "N": 800,
+   "Ns": 20,
+   "Nd": 320,
+   "gens": 25,
+   "mu": 0.0002,
+   "p_edit": 0.9,
+   "q_edit": 0.9,
+   "K": 6,
+   "lam": 0.0,
+   "s_p": 0.04,
+   "r_p": 0.65,
+   "r_f": 0.35,
+   "w_p": 1.0,
+   "w_f": 0.0,
+   "edit_start": 1,
+   "clone_donors": 0
+  },
+  "S6": {
+   "name": "PAGE+OT+PL",
+   "N": 800,
+   "Ns": 20,
+   "Nd": 320,
+   "gens": 25,
+   "mu": 0.0002,
+   "p_edit": 0.9,
+   "q_edit": 0.9,
+   "K": 6,
+   "lam": 0.15,
+   "s_p": 0.04,
+   "r_p": 0.65,
+   "r_f": 0.35,
+   "w_p": 1.0,
+   "w_f": 0.0,
+   "edit_start": 1,
+   "clone_donors": 0
+  },
+  "S7": {
+   "name": "PAGE-mit",
+   "N": 800,
+   "Ns": 20,
+   "Nd": 320,
+   "gens": 25,
+   "mu": 0.0002,
+   "p_edit": 0.9,
+   "q_edit": 0.9,
+   "K": 6,
+   "lam": 0.15,
+   "s_p": 0.04,
+   "r_p": 0.65,
+   "r_f": 0.5,
+   "w_p": 0.7,
+   "w_f": 0.3,
+   "edit_start": 1,
+   "clone_donors": 0
+  },
+  "S8": {
+   "name": "PAGE-delay",
+   "N": 800,
+   "Ns": 20,
+   "Nd": 320,
+   "gens": 25,
+   "mu": 0.0002,
+   "p_edit": 0.9,
+   "q_edit": 0.9,
+   "K": 6,
+   "lam": 0.15,
+   "s_p": 0.04,
+   "r_p": 0.65,
+   "r_f": 0.35,
+   "w_p": 1.0,
+   "w_f": 0.0,
+   "edit_start": 10,
+   "clone_donors": 0
+  },
+  "S9": {
+   "name": "PAGE-clone",
+   "N": 800,
+   "Ns": 20,
+   "Nd": 320,
+   "gens": 25,
+   "mu": 0.0002,
+   "p_edit": 0.9,
+   "q_edit": 0.9,
+   "K": 6,
+   "lam": 0.15,
+   "s_p": 0.04,
+   "r_p": 0.65,
+   "r_f": 0.35,
+   "w_p": 1.0,
+   "w_f": 0.0,
+   "edit_start": 1,
+   "clone_donors": 3
+  }
+ },
+ "sens": {
+  "r_p=0.50": {
+   "name": "PAGE+OT+PL",
+   "N": 800,
+   "Ns": 20,
+   "Nd": 320,
+   "gens": 25,
+   "mu": 0.0002,
+   "p_edit": 0.9,
+   "q_edit": 0.9,
+   "K": 6,
+   "lam": 0.15,
+   "s_p": 0.04,
+   "r_p": 0.5,
+   "r_f": 0.35,
+   "w_p": 1.0,
+   "w_f": 0.0,
+   "edit_start": 1,
+   "clone_donors": 0
+  },
+  "r_p=0.80": {
+   "name": "PAGE+OT+PL",
+   "N": 800,
+   "Ns": 20,
+   "Nd": 320,
+   "gens": 25,
+   "mu": 0.0002,
+   "p_edit": 0.9,
+   "q_edit": 0.9,
+   "K": 6,
+   "lam": 0.15,
+   "s_p": 0.04,
+   "r_p": 0.8,
+   "r_f": 0.35,
+   "w_p": 1.0,
+   "w_f": 0.0,
+   "edit_start": 1,
+   "clone_donors": 0
+  },
+  "p_edit=0.30": {
+   "name": "PAGE+OT+PL",
+   "N": 800,
+   "Ns": 20,
+   "Nd": 320,
+   "gens": 25,
+   "mu": 0.0002,
+   "p_edit": 0.3,
+   "q_edit": 0.9,
+   "K": 6,
+   "lam": 0.15,
+   "s_p": 0.04,
+   "r_p": 0.65,
+   "r_f": 0.35,
+   "w_p": 1.0,
+   "w_f": 0.0,
+   "edit_start": 1,
+   "clone_donors": 0
+  },
+  "p_edit=0.60": {
+   "name": "PAGE+OT+PL",
+   "N": 800,
+   "Ns": 20,
+   "Nd": 320,
+   "gens": 25,
+   "mu": 0.0002,
+   "p_edit": 0.6,
+   "q_edit": 0.9,
+   "K": 6,
+   "lam": 0.15,
+   "s_p": 0.04,
+   "r_p": 0.65,
+   "r_f": 0.35,
+   "w_p": 1.0,
+   "w_f": 0.0,
+   "edit_start": 1,
+   "clone_donors": 0
+  },
+  "lam=0.05": {
+   "name": "PAGE+OT+PL",
+   "N": 800,
+   "Ns": 20,
+   "Nd": 320,
+   "gens": 25,
+   "mu": 0.0002,
+   "p_edit": 0.9,
+   "q_edit": 0.9,
+   "K": 6,
+   "lam": 0.05,
+   "s_p": 0.04,
+   "r_p": 0.65,
+   "r_f": 0.35,
+   "w_p": 1.0,
+   "w_f": 0.0,
+   "edit_start": 1,
+   "clone_donors": 0
+  },
+  "lam=0.30": {
+   "name": "PAGE+OT+PL",
+   "N": 800,
+   "Ns": 20,
+   "Nd": 320,
+   "gens": 25,
+   "mu": 0.0002,
+   "p_edit": 0.9,
+   "q_edit": 0.9,
+   "K": 6,
+   "lam": 0.3,
+   "s_p": 0.04,
+   "r_p": 0.65,
+   "r_f": 0.35,
+   "w_p": 1.0,
+   "w_f": 0.0,
+   "edit_start": 1,
+   "clone_donors": 0
+  },
+  "s_p=0.02": {
+   "name": "PAGE+OT+PL",
+   "N": 800,
+   "Ns": 20,
+   "Nd": 320,
+   "gens": 25,
+   "mu": 0.0002,
+   "p_edit": 0.9,
+   "q_edit": 0.9,
+   "K": 6,
+   "lam": 0.15,
+   "s_p": 0.02,
+   "r_p": 0.65,
+   "r_f": 0.35,
+   "w_p": 1.0,
+   "w_f": 0.0,
+   "edit_start": 1,
+   "clone_donors": 0
+  },
+  "s_p=0.08": {
+   "name": "PAGE+OT+PL",
+   "N": 800,
+   "Ns": 20,
+   "Nd": 320,
+   "gens": 25,
+   "mu": 0.0002,
+   "p_edit": 0.9,
+   "q_edit": 0.9,
+   "K": 6,
+   "lam": 0.15,
+   "s_p": 0.08,
+   "r_p": 0.65,
+   "r_f": 0.35,
+   "w_p": 1.0,
+   "w_f": 0.0,
+   "edit_start": 1,
+   "clone_donors": 0
+  },
+  "Ns=10": {
+   "name": "PAGE+OT+PL",
+   "N": 800,
+   "Ns": 10,
+   "Nd": 320,
+   "gens": 25,
+   "mu": 0.0002,
+   "p_edit": 0.9,
+   "q_edit": 0.9,
+   "K": 6,
+   "lam": 0.15,
+   "s_p": 0.04,
+   "r_p": 0.65,
+   "r_f": 0.35,
+   "w_p": 1.0,
+   "w_f": 0.0,
+   "edit_start": 1,
+   "clone_donors": 0
+  },
+  "Ns=40": {
+   "name": "PAGE+OT+PL",
+   "N": 800,
+   "Ns": 40,
+   "Nd": 320,
+   "gens": 25,
+   "mu": 0.0002,
+   "p_edit": 0.9,
+   "q_edit": 0.9,
+   "K": 6,
+   "lam": 0.15,
+   "s_p": 0.04,
+   "r_p": 0.65,
+   "r_f": 0.35,
+   "w_p": 1.0,
+   "w_f": 0.0,
+   "edit_start": 1,
+   "clone_donors": 0
+  },
+  "K=3": {
+   "name": "PAGE+OT+PL",
+   "N": 800,
+   "Ns": 20,
+   "Nd": 320,
+   "gens": 25,
+   "mu": 0.0002,
+   "p_edit": 0.9,
+   "q_edit": 0.9,
+   "K": 3,
+   "lam": 0.15,
+   "s_p": 0.04,
+   "r_p": 0.65,
+   "r_f": 0.35,
+   "w_p": 1.0,
+   "w_f": 0.0,
+   "edit_start": 1,
+   "clone_donors": 0
+  },
+  "K=9": {
+   "name": "PAGE+OT+PL",
+   "N": 800,
+   "Ns": 20,
+   "Nd": 320,
+   "gens": 25,
+   "mu": 0.0002,
+   "p_edit": 0.9,
+   "q_edit": 0.9,
+   "K": 9,
+   "lam": 0.15,
+   "s_p": 0.04,
+   "r_p": 0.65,
+   "r_f": 0.35,
+   "w_p": 1.0,
+   "w_f": 0.0,
+   "edit_start": 1,
+   "clone_donors": 0
+  }
+ },
+ "n_rep_main": 50,
+ "n_rep_sens": 24,
+ "founder_seed": 7000,
+ "finals": {
+  "S1": [
+   {
+    "fix_known": 0.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.16666666666666666,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.16666666666666666,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.16666666666666666,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.16666666666666666,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.16666666666666666,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.16666666666666666,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.16666666666666666,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.16666666666666666,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.3333333333333333,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.16666666666666666,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.16666666666666666,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.16666666666666666,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.16666666666666666,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.16666666666666666,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.16666666666666666,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.3333333333333333,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.16666666666666666,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.3333333333333333,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.16666666666666666,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.16666666666666666,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.16666666666666666,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.16666666666666666,
+    "ot_slots": 0
+   }
+  ],
+  "S2": [
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.6666666666666666,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.6666666666666666,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.6666666666666666,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.6666666666666666,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.6666666666666666,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.3333333333333333,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.6666666666666666,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.6666666666666666,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.6666666666666666,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.6666666666666666,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.6666666666666666,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.6666666666666666,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.6666666666666666,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 0.6666666666666666,
+    "ot_slots": 0
+   }
+  ],
+  "S3": [
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   }
+  ],
+  "S4": [
+   {
+    "fix_known": 1.0,
+    "ot_slots": 55
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 61
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 57
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 69
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 64
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 56
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 68
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 72
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 66
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 62
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 74
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 63
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 66
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 63
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 69
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 73
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 70
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 67
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 66
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 63
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 60
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 77
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 68
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 55
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 63
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 80
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 63
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 67
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 70
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 65
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 60
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 63
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 69
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 55
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 79
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 60
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 59
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 71
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 60
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 60
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 75
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 66
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 60
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 61
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 64
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 64
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 58
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 71
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 62
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 50
+   }
+  ],
+  "S5": [
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 0
+   }
+  ],
+  "S6": [
+   {
+    "fix_known": 1.0,
+    "ot_slots": 68
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 87
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 53
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 68
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 62
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 59
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 57
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 72
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 58
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 66
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 69
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 56
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 56
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 59
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 64
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 81
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 69
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 55
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 66
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 75
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 73
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 59
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 66
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 48
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 53
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 70
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 68
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 66
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 74
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 50
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 60
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 61
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 59
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 74
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 69
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 65
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 64
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 67
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 61
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 72
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 68
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 71
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 60
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 52
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 76
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 70
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 66
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 62
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 74
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 72
+   }
+  ],
+  "S7": [
+   {
+    "fix_known": 1.0,
+    "ot_slots": 67
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 81
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 81
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 65
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 56
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 68
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 64
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 75
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 54
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 68
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 63
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 68
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 65
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 68
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 51
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 60
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 72
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 64
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 63
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 60
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 63
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 67
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 65
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 72
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 65
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 72
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 65
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 69
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 49
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 69
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 61
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 67
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 78
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 58
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 60
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 76
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 60
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 87
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 69
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 56
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 71
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 59
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 68
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 65
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 66
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 65
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 60
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 72
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 74
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 54
+   }
+  ],
+  "S8": [
+   {
+    "fix_known": 1.0,
+    "ot_slots": 34
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 40
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 35
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 33
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 39
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 39
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 46
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 45
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 37
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 34
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 34
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 48
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 45
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 45
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 48
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 40
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 38
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 34
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 39
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 46
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 41
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 45
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 43
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 33
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 29
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 41
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 35
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 41
+   },
+   {
+    "fix_known": 0.8333333333333334,
+    "ot_slots": 39
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 49
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 44
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 43
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 36
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 42
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 32
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 48
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 37
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 37
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 34
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 34
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 46
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 41
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 35
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 35
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 43
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 33
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 53
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 40
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 39
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 44
+   }
+  ],
+  "S9": [
+   {
+    "fix_known": 1.0,
+    "ot_slots": 10
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 6
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 9
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 7
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 8
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 7
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 8
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 8
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 8
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 8
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 9
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 11
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 9
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 8
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 7
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 10
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 11
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 14
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 8
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 12
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 13
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 14
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 7
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 8
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 8
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 11
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 11
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 10
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 6
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 8
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 9
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 5
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 7
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 6
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 4
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 10
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 6
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 14
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 10
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 8
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 13
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 9
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 10
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 16
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 12
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 12
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 11
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 12
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 9
+   },
+   {
+    "fix_known": 1.0,
+    "ot_slots": 5
+   }
+  ]
+ },
+ "runtime_sec": 1946.9
+}
